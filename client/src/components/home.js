@@ -10,6 +10,9 @@ function Home() {
       </div>
       <div class="bottomHalf">
         <div class="leftSide">
+          <p>League news can go here</p>
+        </div>
+        <div class="middle">
           <p>League leaders will be here</p>
         </div>
         <div class="rightSide">
