@@ -2,8 +2,8 @@ import React from "react";
 
 function Footer() {
   return (
-    <div class="homeContainer">
-      <h1>Home</h1>
+    <div class="footer">
+      <h1>Copyright here @</h1>
     </div>
   );
 }

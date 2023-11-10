@@ -1,13 +1,100 @@
+:root {
+  background-image: url("./assets/ice.jpg");
+  background-size: cover;
+  margin: 5px;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.logo {
+  height: 120px;
+  width: 120px;
+}
+
+.nav-tabs {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 40px;
+  gap: 25px;
+}
+
+.nav-item {
+  text-decoration: none;
+  list-style: none;
+  font-size: 30px;
+}
+
+.nav-item a {
+  color: whitesmoke;
+  font-family: "Lucida Grande";
+  text-decoration: none;
+  border: 4px inset whitesmoke;
+  padding: 10px;
+}
+
+.navContainer {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(1, 1, 131);
+}
+
+.homeContainer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5px;
+}
+
+.topHalf {
+  align-items: center;
+  display: flex;
+  border: 2px solid black;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 45px;
+  margin-bottom: 5px;
+}
+
+.bottomHalf {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: center;
+}
+
+.leftSide {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid rgb(255, 255, 255);
+  font-size: 35px;
+  width: 50%;
+  text-align: center;
+}
+
+.rightSide {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  border: 2px solid rgb(255, 255, 255);
+  font-size: 35px;
+  width: 50%;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: 10px;
 }

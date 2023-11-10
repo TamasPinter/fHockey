@@ -1,8 +1,10 @@
 import React from "react";
+import Logo from "../assets/logo.jpg";
 
 function NavLinks({ currentPage, handlePageChange }) {
   return (
     <div class="navContainer">
+      <img class="logo" src={Logo} alt="fantasy logo" />
       <ul class="nav nav-tabs">
         <li class="nav-item">
           <a
